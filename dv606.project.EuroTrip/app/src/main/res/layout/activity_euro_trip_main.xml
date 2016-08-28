@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context=".EuroTripMainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header_text"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/blue"
+        android:drawableStart="@drawable/ic_directions_car_black_24dp"
+        android:elegantTextHeight="true"
+        android:paddingEnd="10dp"
+        android:paddingStart="5dp"
+        android:text="@string/new_game"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/topScore"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/blue"
+
+        android:drawableStart="@drawable/ic_format_list_numbered_black_24dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="5dp"
+        android:text="@string/top_scores"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/blue"
+
+        android:drawableStart="@drawable/ic_settings_black_24dp"
+        android:gravity="center"
+        android:paddingEnd="10dp"
+        android:paddingStart="5dp"
+        android:text="@string/settings"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/lower_image"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pic1" />
+
+</LinearLayout>
+

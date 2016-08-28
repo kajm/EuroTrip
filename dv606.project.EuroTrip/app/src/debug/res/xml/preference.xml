@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="menumusic"
+        android:summary="@string/summary1"
+        android:title="@string/pref_title1" />
+
+
+    <SwitchPreference
+        android:key="soundeffects"
+        android:summary="@string/summary2"
+        android:title="@string/pref_title2" />
+
+
+    <SwitchPreference
+        android:key="vibrate"
+        android:summary="@string/summary3"
+        android:title="@string/pref_title3" />
+
+
+</PreferenceScreen>

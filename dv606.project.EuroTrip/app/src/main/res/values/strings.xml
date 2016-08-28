@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">EuroTrip</string>
+
+    <!-- Strings for Main Activity Layout-->
+    <string name="new_game">Spela</string>
+    <string name="top_scores">Topplista</string>
+    <string name="settings">Inställningar</string>
+    <string name="header_text">EUROTRIP</string>
+    <string name="app_chooser">Choose your application</string>
+    <string name="continuegame">Fortsätt spel</string>
+
+    <!-- Strings for Top Score Activity -->
+    <string name="context_header">Vad vill du göra?</string>
+    <string name="share">Dela resultat</string>
+    <string name="show_detailed">Visa detaljerad poängvy</string>
+    <string name="delete_score">Rensa topplista</string>
+    <string name="empty_scoreboard">Finns inget att visa här, än.</string>
+    <string name="share_my_result">Mitt Eurotrip-resultat\n</string>
+    <string name="share1">\u0020klarade spelet på\u0020</string>
+    <string name="share2">\u0020poäng den\u0020</string>
+    <string name="share_choices">Hur vill du dela ditt resultat?</string>
+    <string name="my_eurotrip">Min Eurotrip</string>
+    <string name="detailed_header">Detaljerad poängvy</string>
+    <string name="trip">Resa</string>
+    <string name="points_detailed">Poäng</string>
+    <string name="return_btn">Gå tillbaka</string>
+    <string name="name_topscore">NAMN</string>
+    <string name="points_topscore">POÄNG</string>
+    <string name="date_topscore">DATUM</string>
+    <string name="header_topscore">TOPPLISTA</string>
+
+    <!-- Strings for GameActivity-->
+    <string name="ten_points">På 10 poäng</string>
+    <string name="eight_points">På 8 poäng</string>
+    <string name="six_points">På 6 poäng</string>
+    <string name="four_points">På 4 poäng</string>
+    <string name="two_points">På 2 poäng</string>
+    <string name="time_is_up">Tiden är ute!</string>
+    <string name="time_is_up_msg">Tryck på nästa resa eller gå bakåt för att avsluta spel.</string>
+    <string name="trip2">\u0020(Resa\u0020</string>
+    <string name="correct_answer">Rätt svar! Du fick\u0020</string>
+    <string name="points">\u0020poäng!\n</string>
+    <string name="explanation">Motivering\n</string>
+    <string name="wrong_answer">Fel svar! Du fick 0 poäng</string>
+    <string name="toastmsg">Ingen internetanslutning</string>
+    <!-- Button text -->
+    <string name="next_trip">Nästa resa</string>
+    <string name="play_again">Spela igen</string>
+    <string name="play">Spela</string>
+    <string name="input">Svara här</string>
+    <string name="submit">Skicka</string>
+
+    <!-- Alert Dialog -->
+    <string name="alert_title">Spel slut. Din totala poäng blev:\u0020</string>
+    <string name="enter_name">Var god ange ditt namn</string>
+    <string name="exit1">Avsluta till huvudmenyn?</string>
+    <string name="exit2">Är du säker på att du vill avsluta spelet? All data kommer gå förlorad.</string>
+    <string name="exit3">Avsluta</string>
+
+    <!-- Preference Settings -->
+    <string name="pref_title1">Menymusik</string>
+    <string name="summary1">Sätt på/stäng av menymusik</string>
+    <string name="pref_title2">Ljudeffekter</string>
+    <string name="summary2">Sätt på/stäng av ljudeffekter</string>
+    <string name="pref_title3">Vibration</string>
+    <string name="summary3">Sätt på/stäng av vibration</string>
+
+    <!--Timer Service -->
+    <string name="notTitle">Eurotrip - Tid kvar:</string>
+</resources>

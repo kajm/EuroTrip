@@ -1,0 +1,112 @@
+<RelativeLayout
+    android:id="@+id/top_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.karlmosenbacher.eurotrip.GameActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <TextView
+        android:id="@+id/current_points"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_toStartOf="@+id/timer" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:textAlignment="viewEnd"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#BF2196F3"
+        android:layout_alignBottom="@+id/current_question" />
+
+    <TextView
+        android:id="@+id/current_question"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:maxLines="3"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:textSize="16sp"
+        android:layout_below="@+id/current_points"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/timer"
+        android:layout_alignParentEnd="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/play"
+        android:layout_centerInParent="true"
+        android:text="@string/play"/>
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyzåäöABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ "
+        android:hint="@string/input"
+        android:visibility="gone"
+        android:singleLine="true"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textSize="20sp"
+        android:background="@color/blue"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="@string/submit"/>
+
+    <Button
+        android:id="@+id/next_trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/answer"
+        android:visibility="gone"
+        android:text="@string/next_trip"/>
+</RelativeLayout>
+
+
+
